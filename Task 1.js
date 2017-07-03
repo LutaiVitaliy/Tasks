@@ -64,6 +64,8 @@ console.log(changeDirection(`some string`))
 
 // TASK 1.7
 
+// Version 1
+
 function getLongestWord(sentense) {
     var arr = sentense.split(` `);
     var longest;
@@ -83,6 +85,7 @@ console.log(getLongestWord(``));
 console.log(getLongestWord(`hello world longestwordever`));
 console.log(getLongestWord(`                                hello world longestwordever1 longestwordever2  bye`));
 
+// Version 2
 
 function getLongestWord2(sentense) {
     var words = sentense.split(` `);

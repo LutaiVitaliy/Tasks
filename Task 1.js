@@ -19,10 +19,13 @@ function checkForSubstring(str, subStr) {
         count++;
 
     }
+    if (count == 0) {
+        count = `вхождений нет`
+    }
     return count;
 }
 
-console.log(checkForSubstring(`some string`, `s`));
+console.log(checkForSubstring(`some string`, `a`));
 
 // TASK 1.3
 
@@ -111,6 +114,7 @@ function factorial(n) {
 }
 
 console.log(factorial(10));
+console.log(factorial(2));
 
 // TASK 1.9
 

@@ -5,6 +5,7 @@ function firstCharToUpperCase(string) {
 }
 
 console.log(firstCharToUpperCase(`hello`));
+console.log(firstCharToUpperCase(`something`));
 
 // TASK 1.2
 

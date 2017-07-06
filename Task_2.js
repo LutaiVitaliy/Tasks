@@ -71,7 +71,7 @@ console.log(filter(arr, inArray([1, 2, 5, 10])));
 
 function Summator() {
     this.sum = function(a, b) {
-            return a * b;
+            return a + b;
         },
         this.run = function() {
             var x = +prompt(`Введите первое значение:`, 1);

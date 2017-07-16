@@ -1,0 +1,92 @@
+.square {
+    font-size: 40pt;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+    background-color: slategrey;
+    margin: 2px;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.globalSquare {
+    display: flex;
+    flex-wrap: wrap;
+    width: 496px;
+    margin: 5%;
+    border: 3px solid gray;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 5px;
+}
+
+.gameBtn {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#start {
+    font-size: 36pt;
+    margin-left: 9%;
+}
+
+button:focus {
+    outline: none;
+}
+
+#b1 {
+    margin-left: 94px;
+    margin-top: 94px;
+}
+
+#b2 {
+    margin-left: 218px;
+    margin-top: 94px;
+}
+
+#b3 {
+    margin-left: 344px;
+    margin-top: 94px;
+}
+
+#b4 {
+    margin-left: 94px;
+    margin-top: 218px;
+}
+
+#b5 {
+    margin-left: 218px;
+    margin-top: 218px;
+}
+
+#b6 {
+    margin-left: 344px;
+    margin-top: 218px;
+}
+
+#b7 {
+    margin-left: 94px;
+    margin-top: 344px;
+}
+
+#b8 {
+    margin-left: 218px;
+    margin-top: 344px;
+}
+
+#b9 {
+    margin-left: 344px;
+    margin-top: 344px;
+}

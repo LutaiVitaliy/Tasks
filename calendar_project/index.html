@@ -1,0 +1,45 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+    <title>
+        Calendar
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ee6968a3c7.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="btn-container">
+            <button class="btn-big">Add</button>
+            <button class="btn-big">Update</button>
+        </div>
+        <div class="search-container">
+            <form method="get" action="/search" id="search">
+
+                <input name="q" type="text" size="40" placeholder="Event, date or member" />
+            </form>
+        </div>
+    </header>
+    <hr>
+    <div>
+        <div id="navContainer">
+            <button class="nav" id="prevBtn"><i class="material-icons md-24">navigate_before</i></button>
+            <span class="dateSpan" id="monthSpan"></span>
+            <span class="dateSpan" id="yearSpan"></span>
+            <button class="nav" id="nextBtn"><i class="material-icons md-24">navigate_next</i></button>
+            <button class="nav" id="nowBtn">Today</button>
+        </div>
+        <br>
+        <div id="calendarContainer"></div>
+    </div>
+    <script src="model.js"></script>
+</body>
+
+</html>
